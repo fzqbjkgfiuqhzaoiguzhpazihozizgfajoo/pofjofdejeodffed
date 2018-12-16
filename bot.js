@@ -1,12 +1,12 @@
 const Discord = require('discord.js');
 const client = new Discord.Client();
-const developers = ['343743154429755392','520562326676570112'];
+const developers = ['488734837088452618','520562326676570112'];
 
 client.on('message', message => {
   var argresult = message.content.split(` `).slice(1).join(' ');
     if (!developers.includes(message.author.id)) return;
 
-if (message.content.startsWith('Hwt')) {
+if (message.content.startsWith('Zwt')) {
 client.user.setActivity(argresult, {type:'WATCHING'});
   client.user.setStatus("dnd")
     message.channel.send(` ** Done. :white_check_mark: ** `)
