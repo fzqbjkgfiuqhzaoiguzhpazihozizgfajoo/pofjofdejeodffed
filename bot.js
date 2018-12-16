@@ -27,19 +27,6 @@ client.user.setActivity(argresult , {type:'PLAYING'});
     message.channel.send(` ** Done. :white_check_mark: ** `)
 
 }
-  client.on('message', message => {//iiHouSSaM#9494
-        if (!developers.includes(message.author.id)) return;//iiHouSSaM#9494
-  if (message.content === '963') {//iiHouSSaM#9494
-
-  let channel = client.channels.get('520562326676570112');//iiHouSSaM#9494
-
-
-  channel.join()//iiHouSSaM#9494
-  .then(connection => console.log(`????`))//iiHouSSaM#9494
-  .catch(console.error);//iiHouSSaM#9494
-  }
-});
-          
-});
+ 
 
 client.login(process.env.BOT_TOKEN);
