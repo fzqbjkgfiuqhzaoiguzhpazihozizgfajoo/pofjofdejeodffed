@@ -28,5 +28,4 @@ client.user.setActivity(argresult , {type:'PLAYING'});
 
 }
  
-
 client.login(process.env.BOT_TOKEN);
